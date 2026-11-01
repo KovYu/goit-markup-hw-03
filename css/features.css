@@ -1,12 +1,18 @@
 .features {
+  padding: 120px 0;
 }
 .features-title {
 }
 .features-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
 }
 .feature-item {
+  width: calc((100% - 24px * 3) / 4);
 }
 .feature-item-title {
+  margin-bottom: 8px;
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 20px;
