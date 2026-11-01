@@ -48,6 +48,9 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
+.section {
+  padding: 120px 0;
+}
 .section-title {
   font-family: "Roboto", sans-serif;
   font-weight: 700;
@@ -82,13 +85,13 @@ img {
 }
 .sr-only {
   position: absolute;
+  white-space: nowrap;
   width: 1px;
   height: 1px;
-  margin: -1px;
+  overflow: hidden;
   border: 0;
   padding: 0;
-  white-space: nowrap;
-  clip-path: inset(100%);
   clip: rect(0 0 0 0);
-  overflow: hidden;
+  clip-path: inset(100%);
+  margin: -1px;
 }
